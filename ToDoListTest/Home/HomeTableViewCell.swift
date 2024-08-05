@@ -83,13 +83,11 @@ private extension HomeTableViewCell {
         }
         
         titleLabel.snp.makeConstraints { make in
-//            make.top.equalToSuperview().inset(5)
             make.centerY.equalToSuperview()
             make.left.equalToSuperview().inset(10)
         }
         
         checkButton.snp.makeConstraints { make in
-//            make.top.equalToSuperview().inset(15)
             make.centerY.equalToSuperview()
             make.right.equalToSuperview().inset(20)
             make.size.equalTo(20)

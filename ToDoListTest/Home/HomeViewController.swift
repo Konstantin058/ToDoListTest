@@ -284,8 +284,6 @@ extension HomeViewController: HomeTableViewCellDelegate {
     
     func didTapCheckButton(on cell: HomeTableViewCell) {
         guard let indexPatch = listTableView.indexPath(for: cell) else { return }
-        let task = lists[indexPatch.row]
-        
         checkUpcomingTasks()
     }
 }

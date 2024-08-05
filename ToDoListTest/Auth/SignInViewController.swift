@@ -175,7 +175,7 @@ private extension SignInViewController {
             passwordTextField.layer.borderColor = UIColor.red.cgColor
             
             errorImage.image = UIImage(named: "error")
-            errorLabel.text  = "Неверный логин, Email или пароль"
+            errorLabel.text  = "Неверный Email или пароль"
             return
         }
 
